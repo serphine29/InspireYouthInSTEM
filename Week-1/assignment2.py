@@ -1,0 +1,4 @@
+#triangle
+print("          *             ")
+print("        * * *           ")
+print("      *  *  * *         ")

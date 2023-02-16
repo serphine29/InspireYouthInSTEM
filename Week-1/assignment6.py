@@ -1,7 +1,7 @@
 
 bank_name ="EQUITY BANK"
 branch_name = "CBD Branch"
-date_name = "25 Jan 2020"
+    cdate_name = "25 Jan 2020"
 f_name = "SERPHINE"
 s_name = "ACHIENG"
 acc_number = "328765gyxz"

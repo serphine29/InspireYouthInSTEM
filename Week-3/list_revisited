@@ -1,0 +1,25 @@
+
+
+
+
+
+
+
+myFavouriteFruits = ["banana","apple","mangoe","pineapple","orange"]
+for fruit in myFavouriteFruits :
+     print(fruit)
+print(len(myFavouriteFruits))
+
+friends = ["Baraka","Eunice","Teddy","Beverly","Louis"]
+print(friends)
+friends[0] = "Bitain"
+print(friends)
+print("-----------")
+new_friends = friends.copy()
+print(new_friends)
+print("---------")
+new_friends.sort()
+print(new_friends)
+
+new_friends.pop()
+print(new_friends)

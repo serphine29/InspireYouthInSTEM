@@ -1,12 +1,5 @@
 
-#!/usr/bin/envpython3
-
-#This is a single line comment
-#pythonprogram to illustrate the  use of operators
-#Name : Serphine Ouma
-#email :serphineachieng52@gmail.com
-#Date : 17th february 2023
-#file : Strings.py
+s
 
 poem =  """ This is a poem about nothing
 its funny people laugh about nothing

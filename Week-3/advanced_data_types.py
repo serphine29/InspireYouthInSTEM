@@ -39,3 +39,10 @@ print(student["gender"])
 print(student["is_tall"])
 
 #"name" :"serphine" -->name(key) serphine(value )
+# 4)sets 
+my_fruits ={"apple","banana","oranges","mangoeS"}
+
+for fruit in my_fruits:
+    print(fruit)
+    print(type(my_fruits))
+    print(len(my_fruits))

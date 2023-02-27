@@ -1,0 +1,6 @@
+
+hello world from Mary and  John
+C:\Users\ADMIN\Documents\Inspire-Youth-In-STEM\Week-4\tes.txt
+
+
+file_name =C:\\Users\\ADMIN\Documents\\Inspire-Youth-In-STEM\Week-4\tes.txt

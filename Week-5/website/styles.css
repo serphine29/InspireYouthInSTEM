@@ -1,71 +1,93 @@
 *{
-    margin:0px;
-    padding:0px;
-   
+margin: 0;
+padding: 0;
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
+
 .header{
     min-height: 100vh;
     width: 100%;
+    background-image: url(images/images/banner.png),linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7));
     background-position: center;
     background-size: cover;
     position: relative;
-    background-image: url(images/images/banner.png),linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7));
 
-    
 }
-.nav{
-display:flex;
-padding: 2% 6%;
-justify-content: space-between;
-align-items: center;
-
+nav{
+    display: flex;
+    padding:2% 6%;
+    justify-content: space-between;
+    align-items: center;
 }
 nav img{
     width: 150px;
-
 }
 .nav-links{
-    flex: 1;
+    flex:1;
     text-align: right;
-
 }
-.nav-links li{
-    text-align: right;
-    font-size: small;
 
-    color: crimson;
-    font-size: 30px;
-}
 .nav-links ul li{
-    
     list-style: none;
-    display:inline-block ;
+    display:inline-block;
     padding: 8px 12px;
     position: relative;
-    color: rgb(207, 194, 194);
 }
-.nav-links ul li a{
 
-    color: #ffff;
+.nav-links ul li a{
+    color:white;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 13px; 
 }
-#main{
-    color: blue;
-    font-size: 45px;
+
+.nav-links ul li::after{
+    content:'';
+    width: 0%;
+    height: 2px;
+    background: rgb(42, 89, 165);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
 }
+.nav-links ul li:hover::after{
+    width: 100%;
+    
+}
+.text-box{
+
+    width: 90%;
+    color:black;
+    position:relative;
+    top: 80%;
+    left: 20%;
+    transform: translate(-50% -50%);
+}
+.text-box h1{
+    font-size: 56px;
+
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 18px;
+    color:white;
+}
+
 .hero-btn{
     display: inline-block;
     text-decoration: none;
-    color: #ffff;
-    border: 1px solid #ffff;
+    color: black;
+    border: 1px solid #fff;
     padding: 12px 34px;
     background: transparent;
     position: relative;
     cursor: pointer;
 }
+
 .hero-btn:hover{
-    border: 1px solid #f44336;
-    background: #f44336;
-    transition: 1s;
+    border: 3px solid rgb(10, 15, 15);
+    background: crimson;
+    transition: 10s;
 }

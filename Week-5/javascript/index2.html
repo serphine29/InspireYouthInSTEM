@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet"href="style.css">
+    </head>
+    <body>
+        <h1 >LOG IN SYSTEM</h1>
+        <label for="">Name</label><br>
+        <input type="text"><br>
+        <label for="">Age</label><br>
+        <input id="age"type="init"><br>
+        <button id="confirm_btn">CONFIRM</button>
+        <h2 id="get_in">You are allowed to enter</h2>\
+        <button id="increase_btn">increase</button>
+        <button id="decrease_btn">decrease</button>
+        <button id="rest_btn">reset</button>
+
+    <script>
+        document.getElementById("increase_btn").onclick = function increase_number(){
+             number +=1
+             console.log(number)
+             document.getElementById("number").value = number
+        }
+        let age = 0
+        msg = ""
+        function add_number(num1,num2)
+{
+    return num1 + num2
+}
+     console.log("Button clicked !")
+    document.getElementById("confirm_btn").onclick=function check()
+    age = document.getElementById("age ").innerHTML.valueOf
+    if(age<=18){
+    msg = "you are not allowed"
+    document.getElementById("get_in").innerHTML.msg
+}else{
+    msg = "welcome to the club"
+    document.getElementById("get_in").innerHTML.msg
+}
+  
+    </script>
+
+        <button>Click me</button>
+
+        
+
+    
+
+
+
+        
+    </body>
+</html>
